@@ -5,6 +5,8 @@
 # Prerequirement:
 #   github-release  (https://github.com/aktau/github-release)
 #   golang
+#
+# Copyright 2017 Kazushi (Jam) Marukawa.
 
 owner=$GITHUB_OWNER
 repo=$GITHUB_REPO
