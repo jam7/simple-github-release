@@ -1,5 +1,7 @@
 # simple-github-release
-Script to call github-release for the ease of operation
+A tool to upload binary files to GitHub release page easily
+
+(a wrapper of github-release)
 
 ## Prerequirements
 golang and github-release (https://github.com/aktau/github-release)
