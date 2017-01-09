@@ -3,7 +3,7 @@ A tool to upload binary files to GitHub release page easily
 
 (a wrapper of github-release)
 
-## Prerequirements
+## Prerequisites
 golang and github-release (https://github.com/aktau/github-release)
 
 Performs following steps if you are not sure.
@@ -52,6 +52,6 @@ Options:
 It is possible to upload multiple files at once.  It is not possible to overwrite files uploaded, so need to remove them from web interface.
 
 ## License
-Copyright 2017 Kazushi (Jam) Marukawa.
+@ 2017 Kazushi (Jam) Marukawa.  All rights reserved.
 
 This project including all of its source files is released under the terms of [GNU General Public License (version 3 or later)](http://www.gnu.org/licenses/gpl.txt)
