@@ -8,7 +8,7 @@ golang and github-release (https://github.com/aktau/github-release)
 
 Performs following steps if you are not sure.
 ```
-$ sudo apt-get install golan
+$ sudo apt-get install golang
 $ export GOPATH=$HOME/gocode
 $ export PATH=$GOPATH/bin:$PATH
 $ go get github.com/aktau/github-release
@@ -17,7 +17,7 @@ $ go get github.com/aktau/github-release
 ## Setup
 Need to specify owner and repository you want to manage and token to operate.
 
-First, make token at github by [creation a github token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).  Then, set all environment variable like below.
+First, make **public_repo** token at github as described in [creation a github token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).  Then, set all environment variable like below.
 ```
 $ export GITHUB_OWNER=owner-of-repository-to-manage
 $ export GITHUB_REPO=repository-to-manage
